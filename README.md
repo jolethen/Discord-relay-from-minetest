@@ -6,8 +6,8 @@ a simple relay bridge between minetest and discord, made to be compatible with w
 
 Go to mintest.conf and add
 ``secure.http_mods = discord_relay
-discord_webhook = webhook link
-if any else mod is also using http use it like secure.http_mods = discord_relay, mod2, mod3``
+discord_webhook = webhook link``
+if any else mod is also using http use it like ``secure.http_mods = discord_relay, mod2, mod3``
 
 # Any issues?
 
