@@ -3,7 +3,7 @@
 
 -- ===== SETTINGS =====
 -- Set in minetest.conf:
--- discord_webhook = https://discord.com/api/webhooks/XXXX/XXXXXXXX
+-- discord_webhook = `https://discord.com/api/webhooks/XXXX/XXXXXXXX`
 local webhook_url = minetest.settings:get("discord_webhook") or ""
 
 -- Check HTTP support
